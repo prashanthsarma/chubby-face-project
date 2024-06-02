@@ -1,10 +1,16 @@
 A simple problem statement - Can an AI identify or predict atleast 1 aspect of human life based on placement of any 1 single planet placement. We are trying to follow Vedic astrology.
-So we were to just create data for various combinations where the natal Moon is strong according to combinations described in vedic astrology.
-So, Given a data with longitudes of 9 planets, can an AI identify if the natal chart has a strong moon placement
+
+So we have to just create data for various combinations mentioned in the vedic astrology books where the natal Moon is strong. Feed it into an AI program and voila !!
+
+But alas!, it isn't as easy as it seems.
+
+The datamodel is a simple table containing degrees of each planet expressed as a longiture starting from Aires as 0 degrees. So each planet will have a degree going from 0-360. i.e Ascendant, Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn and Rahu. Ketu is a dependant parameter on Rahu so we dont consider it.
+
+
+
 So, over a single weekend tried to create a dataset for different placements of mooon and I have failed miserably. 
 As astro books generally speak only in a combination of 2 or 3 planets, but an AI cannot work well with missing data i.e. for each combination of moon, we need to have combination of other planets as well.
 
-The data is a simple table containing degrees of each planet expressed as a longiture starting from Aires 0. So each planet will have a degree going from 0-360. i.e Ascendant, Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn and Rahu. Ketu is a dependant parameter on Rahu so we dont consider it.
 
 
 The combinations which were chosen were following:
